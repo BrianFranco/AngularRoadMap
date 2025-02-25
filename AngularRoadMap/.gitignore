@@ -1,0 +1,62 @@
+# Documentación de gitignore:
+# https://docs.github.com/get-started/getting-started-with-git/ignoring-files
+
+# ============================
+# Salida compilada / Build Output
+# ============================
+/dist
+/out-tsc
+/tmp
+/bazel-out
+
+# ============================
+# Dependencias
+# ============================
+/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# ============================
+# Angular cache
+# ============================
+/.angular/cache
+
+# ============================
+# Coverage y reportes de pruebas
+# ============================
+/coverage
+
+# ============================
+# Configuración de IDEs y editores
+# ============================
+# Visual Studio Code
+.vscode*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Otros IDEs/editores
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ============================
+# Archivos temporales y logs varios
+# ============================
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+/typings
+
+# ============================
+# Archivos del sistema
+# ============================
+.DS_Store
+Thumbs.db
